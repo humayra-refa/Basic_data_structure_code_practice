@@ -1,0 +1,15 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<int>v1={100,200,300,400};
+    for(int i =0; i<v1.size();i++){
+        cout<<v1[i]<<" "<<endl;
+    }
+    v1.resize(10);
+    for(int i = 0;i<v1.size();i++){
+        cout<<v1[i]<<" ";
+
+    }
+    v1.resize(10,100);
+}
